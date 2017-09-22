@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE groups SYSTEM "schema.dtd">
+<groups>
+    <group>
+        <info name="ИСТм-990" department="ИИТиР"/>
+        <students>
+            <student lastName="Сидоров" firstName="Афанасий" patronymic="Геннадьевич" birthDate="2097-11-15" payStatus="&B;"/>
+            <student lastName="Иванов" firstName="Иван" birthDate="2109-03-05" payStatus="&P;"/>
+        </students>
+    </group>
+    <group>
+        <info name="ПРИм-990" department="ИИТиР"/>
+        <students>
+            <student lastName="Самарина" firstName="Ирина" patronymic="Федоровна" birthDate="2107-07-31"/>
+            <student lastName="Денисов" firstName="Владислав" birthDate="2100-09-17" payStatus="&B;"/>
+        </students>
+    </group>
+</groups>

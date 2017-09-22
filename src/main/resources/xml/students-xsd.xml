@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info xmlns="http://makar.ru/icss/lab2/xsd">
+    <groups>
+        <group id="1">
+            <name>ИСТм-990</name>
+            <department>ИИТиР</department>
+        </group>
+        <group id="2">
+            <name>ПРИм-990</name>
+            <department>ИИТиР</department>
+        </group>
+    </groups>
+    <students>
+        <student>
+            <lastName>Сидоров</lastName>
+            <firstName>Афанасий</firstName>
+            <patronymic>Геннадьевич</patronymic>
+            <birthDate>2097-11-15</birthDate>
+            <onBudget>true</onBudget>
+            <groupRef>1</groupRef>
+        </student>
+        <student>
+            <lastName>Иванов</lastName>
+            <firstName>Иван</firstName>
+            <birthDate>2109-03-05</birthDate>
+            <groupRef>1</groupRef>
+        </student>
+        <student>
+            <lastName>Самарина</lastName>
+            <firstName>Ирина</firstName>
+            <patronymic>Федоровна</patronymic>
+            <age>22</age>
+            <groupRef>2</groupRef>
+        </student>
+        <student>
+            <lastName>Денисов</lastName>
+            <firstName>Владислав</firstName>
+            <birthDate>2100-09-17</birthDate>
+            <onBudget>true</onBudget>
+            <groupRef>2</groupRef>
+        </student>
+    </students>
+</info>

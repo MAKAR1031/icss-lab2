@@ -1,0 +1,17 @@
+<!ENTITY B "budget">
+<!ENTITY P "paid">
+
+<!ELEMENT groups (group)+>
+        <!ELEMENT group (info, students)+>
+        <!ELEMENT info EMPTY>
+        <!ATTLIST info
+                name ID #REQUIRED
+                department (ИМиАТ|ИАСиЭ|ИИТиР|ИПМФиИ|ИБиЭ) #REQUIRED>
+        <!ELEMENT students (student+)>
+        <!ELEMENT student EMPTY>
+        <!ATTLIST student
+                lastName CDDATA #REQUIRED
+                firstName CDDATA #REQUIRED
+                patronymic CDDATA
+                birthDate CDDATA #REQUIRED
+                payStatus CDDATA &P;>
